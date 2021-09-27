@@ -81,7 +81,7 @@ export default function NoteCard(props) {
                   navigator.clipboard.writeText(
                     document.getElementById(`oop${num}`).innerHTML
                   );
-                  openSnakbar("Copied!", 1000, options);
+
                 }}
               >
                 Copy Description
